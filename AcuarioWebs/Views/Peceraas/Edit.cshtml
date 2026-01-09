@@ -1,0 +1,102 @@
+﻿@model AcuarioWebs.Models.Peceraa
+
+@{
+    ViewData["Title"] = "Edit";
+
+}
+<h1 class="alert alert-dark text-center mt-5">Editar Pecera: @Model.NombrePecera</h1>
+
+
+
+<div class="row">
+    <div>
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdPecera" />
+            <div class="form-group">
+                <label asp-for="NombrePecera" class="control-label"></label>
+                <input asp-for="NombrePecera" class="form-control" />
+                <span asp-validation-for="NombrePecera" class="text-danger"></span>
+                <div id="e-NombrePecera"></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Litros" class="control-label"></label>
+                <input asp-for="Litros" class="form-control" onkeypress="return soloNumerosDecimal(event)" />
+                <span asp-validation-for="Litros" class="text-danger"></span>
+                <div id="e-Litros"></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Temperatura" class="control-label"></label>
+                <input asp-for="Temperatura" class="form-control" onkeypress="return soloNumerosDecimal(event)" />
+                <span asp-validation-for="Temperatura" class="text-danger"></span>
+                <div id="e-Temperatura"></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ph" class="control-label"></label>
+                <input asp-for="Ph" class="form-control" onkeypress="return soloNumerosDecimal(event)" />
+                <span asp-validation-for="Ph" class="text-danger"></span>
+                <div id="e-Ph"></div>
+            </div>
+            <div class="form-group mt-3 text-center">
+                <input type="reset" value="Limpiar" class="btn btn-outline-dark w-25" />
+                <input type="submit" value="Editar" onclick="validar(event)" class="btn btn-success w-25" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="text-end">
+    <a asp-action="Index" class="btn btn-dark">Volver</a>
+</div>
+
+<script src="~/js/helper.js"></script>
+<script src="~/js/scripts.js"></script>
+<script>
+        const validar = (evt) => {
+        evt.preventDefault();
+        const form = evt.target.closest('form');
+        let enviar = true;
+        let promesas = [];
+
+        document.querySelectorAll('form .form-control').forEach(item => {
+            if (item.value.trim() === '') {
+                item.classList.add('is-invalid');
+                document.getElementById('e-' + item.id).innerHTML = '<span class="text-danger">Campo obligatorio</span>';
+                enviar = false;
+            } else {
+                item.classList.remove('is-invalid');
+                document.getElementById('e-' + item.id).innerHTML = '';
+                item.classList.add('is-valid');
+
+                if (item.id === 'NombrePecera') {
+                    const prom = verificarNombre(item.value).then(existe => {
+                        if (existe) {
+                            item.classList.add('is-invalid');
+                            document.getElementById('e-' + item.id).innerHTML = '<span class="text-danger">El nombre ya está registrado</span>';
+                            enviar = false;
+                        }
+                    });
+                    promesas.push(prom);
+                }
+            }
+        });
+
+        Promise.all(promesas).then(() => {
+            if (enviar) form.submit();
+        });
+    };
+
+        const verificarNombre = (nombrepecera) => {
+        const idPecera = document.getElementById('IdPecera').value
+        const url = `@Url.Action("VerificarNombre", "Peceraas")?nombre=${encodeURIComponent(nombrepecera)}&id=${encodeURIComponent(idPecera)}`;
+
+        return fetch(url)
+            .then(response => response.json())
+            .then(data => data.existe) 
+            .catch(error => {
+                console.error('Error al verificar nombre:', error);
+                return false;
+            });
+    };
+
+</script>

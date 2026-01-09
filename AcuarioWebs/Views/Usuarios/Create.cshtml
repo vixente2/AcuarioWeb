@@ -1,0 +1,120 @@
+﻿@model AcuarioWebs.Models.Usuario
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<h1 class="alert alert-dark text-center mt-5">Crear Usuario</h1>
+
+
+<div class="row">
+    <div>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+                <div id="e-Email"></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+                <div id="e-Nombre"></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pass" class="control-label"></label>
+                <input asp-for="Pass" class="form-control" />
+                <span asp-validation-for="Pass" class="text-danger"></span>
+                <div id="e-Pass"></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdRol" class="control-label">Rol</label>
+                <select asp-for="IdRol" class ="form-control" asp-items="ViewBag.IdRol">
+                    <option selected disabled value="">Seleccione Rol</option>
+                </select>
+                <div id="e-IdRol"></div>
+            </div>
+            <div class="form-group mt-3 text-center">
+                <input type="reset" value="Limpiar" onclick="limpiar()" class="btn btn-outline-dark w-25" />
+                <input type="submit" value="Crear" onclick="validar(event)" class="btn btn-success w-25" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="text-end">
+    <a asp-action="Index" class="btn btn-dark">Volver</a>
+</div>
+
+
+<script src="~/js/helper.js"></script>
+<script src="~/js/scripts.js"></script>
+<script>
+             const validar = (evt) => {
+        evt.preventDefault();
+        let form = evt.target.closest('form');
+        let enviar = true;
+        let emailCheck = null;
+
+        document.querySelectorAll('form .form-control').forEach(item => {
+            if (item.value.trim() === '') {
+                item.classList.add('is-invalid');
+                document.getElementById('e-' + item.id).innerHTML =
+                    '<span class="text-danger">Campo obligatorio</span>';
+                enviar = false;
+            } else {
+                item.classList.remove('is-invalid');
+                document.getElementById('e-' + item.id).innerHTML = '';
+
+                if (item.id === 'Email') {
+                    if (!validarMail(item.value)) {
+                        item.classList.add('is-invalid');
+                        document.getElementById('e-' + item.id).innerHTML =
+                            '<span class="text-danger">Email no tiene formato correcto</span>';
+                        enviar = false;
+                    } else {
+                        let idUser = document.getElementById('IdUser') ? document.getElementById('IdUser').value : '';
+                        emailCheck = verificarEmail(item.value, idUser).then(existe => {
+                            if (existe) {
+                                item.classList.add('is-invalid');
+                                document.getElementById('e-' + item.id).innerHTML =
+                                    '<span class="text-danger">El email ya está registrado</span>';
+                                enviar = false;
+                            } else {
+                                item.classList.add('is-valid');
+                            }
+                        });
+                    }
+                } else {
+                    item.classList.add('is-valid');
+                }
+            }
+        });
+
+        if (emailCheck) {
+            emailCheck.then(() => {
+                if (enviar) form.submit();
+            });
+        } else {
+            if (enviar) form.submit();
+        }
+    };
+
+        const verificarEmail = (email, idUser) => {
+        let url = '@Url.Action("VerificarEmail", "Usuarios")?email=' + encodeURIComponent(email);
+        if (idUser) url += '&id=' + encodeURIComponent(idUser);
+
+        return fetch(url)
+            .then(response => response.json())
+            .then(data => data.existe)
+            .catch(error => {
+                console.error('Error al verificar email:', error);
+                return false;
+            });
+    };
+</script>
+
+

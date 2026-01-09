@@ -1,0 +1,100 @@
+﻿@model AcuarioWebs.Models.Alimentoo
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="alert alert-dark text-center mt-5">Crear Alimento</h1>
+
+<div class="row">
+    <div>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NombreAlimento" class="control-label">Nombre Alimento</label>
+                <input asp-for="NombreAlimento" class="form-control" />
+                <span asp-validation-for="NombreAlimento" class="text-danger"></span>
+                <div id="e-NombreAlimento"></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tipo" class="control-label">Tipo De Alimento</label>
+                <input asp-for="Tipo" class="form-control" />
+                <span asp-validation-for="Tipo" class="text-danger"></span>
+                <div id="e-Tipo"></div>
+            </div>
+            <div class="form-group mt-3 text-center">
+                <input type="reset" value="Limpiar" onclick="limpiar()" class="btn btn-outline-dark w-25" />
+                <input type="submit" value="Crear" onclick="validar(event)" class="btn btn-success w-25" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="text-end">
+    <a asp-action="Index" class="btn btn-dark">Volver</a>
+</div>
+
+<script src="~/js/helper.js"></script>
+<script src="~/js/scripts.js"></script>
+     <script>
+    const validar = (evt) => {
+        evt.preventDefault(); 
+
+        document.querySelectorAll('form .form-control').forEach(item => {
+            const errorDiv = document.getElementById('e-' + item.id)
+
+
+            if (item.value.trim() === '') {
+                item.classList.add('is-invalid')
+                item.classList.remove('is-valid')
+                if (errorDiv) errorDiv.innerHTML = '<span class="text-danger">Campo obligatorio</span>'
+            } else {
+                item.classList.remove('is-invalid')
+                item.classList.add('is-valid')
+                if (errorDiv) errorDiv.innerHTML = '';
+
+     
+                if (item.id === 'Tipo') {
+                    const nombre = document.getElementById('NombreAlimento').value.trim()
+                    const tipo = document.getElementById('Tipo').value.trim()
+
+                    verificarAlimento(nombre, tipo).then(existe => {
+                        if (existe) {
+                            item.classList.add('is-invalid')
+                            if (errorDiv)
+                                errorDiv.innerHTML = `<span class="text-danger">El alimento "${nombre}" ya existe con el tipo "${tipo}".</span>`
+                        } else {
+                            item.classList.remove('is-invalid')
+                            item.classList.add('is-valid')
+                            if (errorDiv) errorDiv.innerHTML = ''
+
+                            if (document.querySelectorAll('.is-invalid').length === 0) {
+                                document.querySelector('form').submit()
+                            }
+                        }
+                    });
+                }
+            }
+        });
+
+        if (document.querySelectorAll('.is-invalid').length > 0) {
+            evt.preventDefault()
+        }
+    };
+
+ 
+    const verificarAlimento = (nombre, tipo) => {
+        return fetch('@Url.Action("VerificarAlimento", "Alimentoos")?nombre='
+            + encodeURIComponent(nombre)
+            + '&tipo=' + encodeURIComponent(tipo))
+            .then(response => response.json())
+            .then(data => data.existe)
+            .catch(error => {
+                console.error('Error al verificar alimento:', error);
+                return false
+            })
+    };
+</script>
+
+
+

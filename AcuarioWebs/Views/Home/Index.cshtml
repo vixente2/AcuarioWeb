@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+<style>
+    /*
+         * Estos estilos están "dormidos". Se activarán cuando
+         * nuestro script (al final) añada la clase 'page-full-hero'.
+         */
+
+    /* 1. Selecciona el contenedor principal del contenido (de tu _Layout) */
+    #layoutSidenav_content.page-full-hero {
+        /* Pone la imagen de fondo */
+        background-image: url('/lib/AcuarioImg.jfif'); /* Ruta de tu imagen */
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; /* Mantiene la imagen fija */
+        position: relative;
+        /* Organiza el 'main' y 'footer' verticalmente */
+        display: flex;
+        flex-direction: column;
+    }
+
+        /* 2. Superposición oscura para legibilidad */
+        #layoutSidenav_content.page-full-hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Negro al 50% de opacidad */
+            z-index: 1; /* Detrás del contenido */
+        }
+
+        /* 3. Ajusta el <main> (donde está tu H1) */
+        #layoutSidenav_content.page-full-hero main {
+            flex-grow: 1; /* Fuerza al 'main' a ocupar todo el espacio disponible */
+            /* Centra el H1 vertical y horizontalmente */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative; /* Para ponerlo sobre la superposición */
+            z-index: 2;
+        }
+
+        /* 4. ELIMINA los paddings (px-5) del layout SÓLO en esta página */
+        #layoutSidenav_content.page-full-hero .container-fluid {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            text-align: center;
+        }
+
+        /* 5. Da estilo al H1 */
+        #layoutSidenav_content.page-full-hero h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            color: #ffffff; /* Texto blanco */
+            text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+            font-size: 3.5rem;
+        }
+
+        /* 6. Arregla el footer para que sea transparente */
+        #layoutSidenav_content.page-full-hero footer.py-4 {
+            background-color: transparent !important; /* Quita el 'bg-light' */
+            color: #f8f9fa; /* Texto del footer claro */
+            position: relative;
+            z-index: 2; /* Sobre la superposición */
+        }
+
+        #layoutSidenav_content.page-full-hero footer .text-muted {
+            color: #e9ecef !important; /* Texto "muted" claro */
+        }
+</style>
+
+<h1 class="display-4">
+    Bienvenido a AcuarioWebs
+</h1>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Busca el ID del contenedor de layout
+        var layoutContent = document.getElementById('layoutSidenav_content');
+
+        // Si lo encuentra, le añade la clase
+        if (layoutContent) {
+            layoutContent.classList.add('page-full-hero');
+        }
+    });
+</script>

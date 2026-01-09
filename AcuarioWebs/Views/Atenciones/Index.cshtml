@@ -1,0 +1,126 @@
+﻿@using AcuarioWebs.Helpers;
+@model PaginatedList<AcuarioWebs.Models.Atencione>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="alert alert-secondary mt-5 text-center">Lista Atencion</h1>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <div>
+        <a asp-action="ExportarExcel" asp-route-filtro="@ViewData["filtro"]" class="btn btn-success">
+            <i class="fa-solid fa-file-excel"></i> Exportar Excel
+        </a>
+        <a asp-action="ExportarPDF" asp-route-filtro="@ViewData["filtro"]" class="btn btn-danger">
+            <i class="fa-solid fa-file-pdf"></i> Exportar PDF
+        </a>
+    </div>
+    <div>
+        <a asp-action="Create" class="btn btn-primary">Crear Atencion</a>
+    </div>
+</div>
+
+<div class="mt-3 mb-3">
+    <form asp-action="Index" method="get">
+        <div class="input-group mb-3">
+            <label class="input-group-text"><i class="fas fa-search"></i></label>
+            <input type="text" class="form-control" placeholder="Buscar" name="buscar" id="buscar" value="@ViewData["filtro"]">
+            <input type="submit" class="btn btn-outline-success" value="Buscar" />
+        </div>
+    </form>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Tipo Actividad</th>
+                <th>Fecha</th>
+                <th>Alimento</th>
+                <th>Pez</th>
+                <th>Usuario</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.TipoActividad)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Fecha)</td>
+                    <td>@Html.DisplayFor(modelItem => item.IdAlimentoNavigation.NombreAlimento)</td>
+                    <td>@Html.DisplayFor(modelItem => item.IdPecesNavigation.NombrePez)</td>
+                    <td>@Html.DisplayFor(modelItem => item.IdUserNavigation.Nombre)</td>
+                    <td class="text-center">
+                        <a asp-action="Edit" asp-route-id="@item.IdAtencion" class="btn btn-warning">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                        </a>
+                        <a asp-action="Details" asp-route-id="@item.IdAtencion" class="btn btn-success">
+                            <i class="fa-regular fa-file"></i>
+                        </a>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <button class="btn btn-danger" onclick="eliminar(this.id)" id="@item.IdAtencion">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @{
+        var prev = !Model.HasPreviousPage ? "disabled" : "";
+        var next = !Model.HasNextPage ? "disabled" : "";
+        int total = Model.TotalPages;
+    }
+    <ul class="pagination">
+        <li class="page-item @prev">
+            <a class="page-link" asp-action="Index" asp-route-numPag="@(Model.PageIndex - 1)" asp-route-filtro="@ViewData["filtro"]">Anterior</a>
+        </li>
+        @for (int i = 0; i < total; i++)
+        {
+            var activo = "";
+            if ((i + 1) == Model.PageIndex)
+                activo = "active";
+            <li class="page-item @activo">
+                <a class="page-link" asp-action="Index" asp-route-numPag="@(i + 1)" asp-route-filtro="@ViewData["filtro"]">@(i + 1)</a>
+            </li>
+        }
+        <li class="page-item @next">
+            <a class="page-link" asp-action="Index" asp-route-numPag="@(Model.PageIndex + 1)" asp-route-filtro="@ViewData["filtro"]">Siguiente</a>
+        </li>
+    </ul>
+</div>
+
+<script>
+    const eliminar = (id) => {
+        Swal.fire({
+            title: "¿Estás seguro de eliminar esta atencion?",
+            text: "No podrás revertir los cambios",
+            icon: "error",
+            showCancelButton: true,
+            confirmButtonColor: "#d33",
+            cancelButtonColor: "#3085d6",
+            confirmButtonText: "Eliminar"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                fetch('@Url.Action("Delete", "Atenciones")/' + id)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data == 'ok') {
+                            Swal.fire({
+                                title: "Atencion ha sido eliminado con éxito",
+                                text: "",
+                                icon: "success"
+                            }).then((result) => {
+                                location.reload()
+                            })
+                        }
+                    })
+            }
+        })
+    }
+</script>

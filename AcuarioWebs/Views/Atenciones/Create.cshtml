@@ -1,0 +1,129 @@
+﻿@model AcuarioWebs.Models.Atencione
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="alert alert-dark text-center mt-5">Crear Atención</h1>
+
+<div class="row">
+    <div>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TipoActividad" class="control-label">Actividad</label>
+                <input asp-for="TipoActividad" class="form-control" />
+                <span asp-validation-for="TipoActividad" class="text-danger"></span>
+                <div id="e-TipoActividad"></div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Fecha" class="control-label"></label>
+                <input asp-for="Fecha" class="form-control" />
+                <span asp-validation-for="Fecha" class="text-danger"></span>
+                <div id="e-Fecha"></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdUser" class="control-label">Nombre Usuario</label>
+                <select asp-for="IdUser" class="form-control" asp-items="ViewBag.IdUser">
+                    <option value="" selected disabled>Seleccione Usuario</option>
+                </select>
+                <div id="e-IdUser"></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdPeces" class="control-label">Pez</label>
+                <select asp-for="IdPeces" class="form-control" asp-items="ViewBag.IdPeces">
+                    <option value="" selected disabled>Seleccione Pez</option>
+                </select>
+                <div id="e-IdPeces"></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdAlimento" class="control-label">Alimento</label>
+                <select asp-for="IdAlimento" class="form-control" asp-items="ViewBag.IdAlimento">
+                    <option value="" selected disabled>Seleccione Alimento</option>
+                </select>
+                <div id="e-IdAlimento"></div>
+            </div>
+
+            <!-- Botones -->
+            <div class="form-group mt-3 text-center">
+                <input type="reset" value="Limpiar" onclick="limpiar()" class="btn btn-outline-dark w-25" />
+                <input type="submit" value="Crear" onclick="validar(event)" class="btn btn-success w-25" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="text-end">
+    <a asp-action="Index" class="btn btn-dark">Volver</a>
+</div>
+
+<script src="~/js/helper.js"></script>
+<script src="~/js/scripts.js"></script>
+<script>
+
+
+    const verificarAtencionDuplicada = (idUser, fecha) => {
+        const url = `@Url.Action("VerificarAtencion", "Atenciones")?idUser=${encodeURIComponent(idUser)}&fecha=${encodeURIComponent(fecha)}`
+
+        return fetch(url)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Error en la respuesta')
+                }
+                return response.json()
+            })
+            .then(data => {
+                return data.existe
+            })
+            .catch(error => {
+                console.error('Error al verificar duplicado:', error)
+                return true
+            });
+    };
+
+
+        const validar = (evt) => {
+        evt.preventDefault(); 
+        let form = evt.target.closest('form');
+        let enviar = true;
+        let promesas = []; 
+
+        const idUserInput = document.getElementById('IdUser');
+        const fechaInput = document.getElementById('Fecha');
+
+        document.querySelectorAll('form .form-control').forEach(item => {
+            if (item.value.trim() === '') {
+                item.classList.add('is-invalid');
+                document.getElementById('e-' + item.id).innerHTML = '<span class="text-danger">Campo obligatorio</span>';
+                enviar = false;
+            } else {
+                item.classList.remove('is-invalid');
+                document.getElementById('e-' + item.id).innerHTML = '';
+                item.classList.add('is-valid');
+
+                if (item.id === 'Fecha') {
+                    const prom = verificarAtencionDuplicada(idUserInput.value, fechaInput.value)
+                        .then(existe => {
+                            if (existe) {
+                                item.classList.add('is-invalid');
+                                document.getElementById('e-' + item.id).innerHTML = '<span class="text-danger">Hora ya está asignada a un usuario</span>';
+                                enviar = false;
+                            } else {
+                                item.classList.add('is-valid');
+                            }
+                        });
+                    promesas.push(prom);
+                }
+            }
+        });
+
+        // Esperamos que todas las promesas terminen antes de enviar
+        Promise.all(promesas).then(() => {
+            if (enviar) {
+                form.submit();
+            }
+        });
+    };
+</script>
+

@@ -1,0 +1,713 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\controllers\\atencionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\controllers\\atencionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\controllers\\alimentooscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\controllers\\alimentooscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\controllers\\peceraascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\controllers\\peceraascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\controllers\\pecescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\controllers\\pecescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\controllers\\dashboard_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\controllers\\dashboard_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\models\\pece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\models\\pece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\shared\\_lateralmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\shared\\_lateralmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\atenciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\atenciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\alimentoos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\alimentoos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\peces\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\peces\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\peceraas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\peceraas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\alimentoos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\alimentoos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\peces\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\peces\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\helpers\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\helpers\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\acuariowebs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\acuariowebs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\peces\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\peces\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\models\\acuariocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\models\\acuariocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\models\\peceraa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\models\\peceraa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\alimentoos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\alimentoos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\peceraas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\peceraas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\atenciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\atenciones\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\atenciones\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\atenciones\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\peceraas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\peceraas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\atenciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\atenciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\peceraas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\peceraas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\peces\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\peces\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\views\\alimentoos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\views\\alimentoos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\wwwroot\\js\\helper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\wwwroot\\js\\helper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\wwwroot\\wwwroot\\js\\helper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\wwwroot\\wwwroot\\js\\helper.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\wwwroot\\wwwroot\\js\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\wwwroot\\wwwroot\\js\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|c:\\users\\carlo\\downloads\\acuariowebsentrega\\acuariowebs\\acuariowebs\\models\\alimentoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A75C366-617C-42B3-8CC3-D3AFE8220640}|AcuarioWebs\\AcuarioWebs.csproj|solutionrelative:acuariowebs\\models\\alimentoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AtencionesController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Controllers\\AtencionesController.cs",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Controllers\\AtencionesController.cs",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Controllers\\AtencionesController.cs",
+              "RelativeToolTip": "AcuarioWebs\\Controllers\\AtencionesController.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAC4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T02:44:02.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlimentoosController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Controllers\\AlimentoosController.cs",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Controllers\\AlimentoosController.cs",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Controllers\\AlimentoosController.cs",
+              "RelativeToolTip": "AcuarioWebs\\Controllers\\AlimentoosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T21:28:38.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PecesController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Controllers\\PecesController.cs",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Controllers\\PecesController.cs",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Controllers\\PecesController.cs",
+              "RelativeToolTip": "AcuarioWebs\\Controllers\\PecesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEBAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T11:30:01.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "AcuarioWebs\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAAAAwOYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T21:51:42.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PeceraasController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Controllers\\PeceraasController.cs",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Controllers\\PeceraasController.cs",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Controllers\\PeceraasController.cs",
+              "RelativeToolTip": "AcuarioWebs\\Controllers\\PeceraasController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAqwCMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T11:48:09.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Models\\Usuario.cs",
+              "RelativeToolTip": "AcuarioWebs\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T00:48:44.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pece.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Models\\Pece.cs",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Models\\Pece.cs",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Models\\Pece.cs",
+              "RelativeToolTip": "AcuarioWebs\\Models\\Pece.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T11:49:11.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACAAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T14:19:28.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T14:21:20.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dashboard_controller.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Controllers\\dashboard_controller.cs",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Controllers\\dashboard_controller.cs",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Controllers\\dashboard_controller.cs",
+              "RelativeToolTip": "AcuarioWebs\\Controllers\\dashboard_controller.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T06:19:45.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AcuarioWebs\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwE4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T02:07:00.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Atenciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Atenciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Atenciones\\Index.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Atenciones\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-12T22:46:22.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_LateralMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Shared\\_LateralMenu.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Shared\\_LateralMenu.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Shared\\_LateralMenu.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Shared\\_LateralMenu.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T11:30:55.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAALAAAAAAAAAAAAAiwMYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T06:30:37.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Alimentoos\\Create.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Alimentoos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Alimentoos\\Create.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Alimentoos\\Create.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAcwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T21:27:57.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Alimentoos\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Alimentoos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Alimentoos\\Index.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Alimentoos\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T21:52:19.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peces\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Peces\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peces\\Index.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Peces\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAIkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T11:37:06.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T11:37:10.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peceraas\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Peceraas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peceraas\\Index.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Peceraas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T11:58:03.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peces\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Peces\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peces\\Edit.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Peces\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T11:39:22.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Helpers\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Helpers\\PaginatedList.cs",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Helpers\\PaginatedList.cs",
+              "RelativeToolTip": "AcuarioWebs\\Helpers\\PaginatedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T04:30:25.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peces\\Create.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Peces\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peces\\Create.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Peces\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAD8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T11:32:17.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Usuarios\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Usuarios\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T21:54:54.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AcuarioWebs.csproj",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\AcuarioWebs.csproj",
+              "RelativeDocumentMoniker": "AcuarioWebs\\AcuarioWebs.csproj",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\AcuarioWebs.csproj",
+              "RelativeToolTip": "AcuarioWebs\\AcuarioWebs.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-16T04:30:04.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\appsettings.json",
+              "RelativeDocumentMoniker": "AcuarioWebs\\appsettings.json",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\appsettings.json",
+              "RelativeToolTip": "AcuarioWebs\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-28T12:01:51.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AcuarioContext.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Models\\AcuarioContext.cs",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Models\\AcuarioContext.cs",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Models\\AcuarioContext.cs",
+              "RelativeToolTip": "AcuarioWebs\\Models\\AcuarioContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T11:44:13.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Peceraa.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Models\\Peceraa.cs",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Models\\Peceraa.cs",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Models\\Peceraa.cs",
+              "RelativeToolTip": "AcuarioWebs\\Models\\Peceraa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T11:49:25.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAIBJwBUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T14:26:29.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peceraas\\Create.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Peceraas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peceraas\\Create.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Peceraas\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAIBJwDAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T11:56:50.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Alimentoos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Alimentoos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Alimentoos\\Edit.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Alimentoos\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T03:37:13.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Atenciones\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Atenciones\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Atenciones\\Edit.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Atenciones\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T21:54:14.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Atenciones\\Create.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Atenciones\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Atenciones\\Create.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Atenciones\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T21:28:46.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Atenciones\\Details.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Atenciones\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Atenciones\\Details.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Atenciones\\Details.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAIBJwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T11:32:20.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peceraas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Peceraas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peceraas\\Edit.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Peceraas\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T21:53:52.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peceraas\\Details.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Peceraas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peceraas\\Details.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Peceraas\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T23:54:57.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peces\\Details.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Peces\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Peces\\Details.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Peces\\Details.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAIBJwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T21:48:49.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Usuarios\\Details.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Usuarios\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Usuarios\\Details.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Usuarios\\Details.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAIBJwCcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T22:27:17.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Usuarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Usuarios\\Create.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Usuarios\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T21:29:04.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "scripts.js",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\wwwroot\\wwwroot\\js\\scripts.js",
+              "RelativeDocumentMoniker": "AcuarioWebs\\wwwroot\\wwwroot\\js\\scripts.js",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\wwwroot\\wwwroot\\js\\scripts.js",
+              "RelativeToolTip": "AcuarioWebs\\wwwroot\\wwwroot\\js\\scripts.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-22T23:51:02.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "helper.js",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\wwwroot\\js\\helper.js",
+              "RelativeDocumentMoniker": "AcuarioWebs\\wwwroot\\js\\helper.js",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\wwwroot\\js\\helper.js",
+              "RelativeToolTip": "AcuarioWebs\\wwwroot\\js\\helper.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-19T21:28:24.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Alimentoos\\Details.cshtml",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Views\\Alimentoos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Views\\Alimentoos\\Details.cshtml",
+              "RelativeToolTip": "AcuarioWebs\\Views\\Alimentoos\\Details.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T23:53:01.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "helper.js",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\wwwroot\\wwwroot\\js\\helper.js",
+              "RelativeDocumentMoniker": "AcuarioWebs\\wwwroot\\wwwroot\\js\\helper.js",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\wwwroot\\wwwroot\\js\\helper.js",
+              "RelativeToolTip": "AcuarioWebs\\wwwroot\\wwwroot\\js\\helper.js",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwD4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-22T23:50:40.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Alimentoo.cs",
+              "DocumentMoniker": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Models\\Alimentoo.cs",
+              "RelativeDocumentMoniker": "AcuarioWebs\\Models\\Alimentoo.cs",
+              "ToolTip": "C:\\Users\\Carlo\\Downloads\\AcuarioWebsEntrega\\AcuarioWebs\\AcuarioWebs\\Models\\Alimentoo.cs",
+              "RelativeToolTip": "AcuarioWebs\\Models\\Alimentoo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T23:26:36.597Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

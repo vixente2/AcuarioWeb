@@ -1,0 +1,52 @@
+﻿@model AcuarioWebs.Models.Pece
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<h1 class="alert alert-secondary mt-5 text-center">Detalles del Pez</h1>
+
+<div class="card shadow-sm">
+    <div class="card-header">
+        <h4 class="mb-0">Información del Pez</h4>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3 col-md-2">
+                Nombre del Pez
+            </dt>
+            <dd class="col-sm-9 col-md-10">
+                @Html.DisplayFor(model => model.NombrePez)
+            </dd>
+
+            <dt class="col-sm-3 col-md-2">
+                Especie
+            </dt>
+            <dd class="col-sm-9 col-md-10">
+                @Html.DisplayFor(model => model.Especie)
+            </dd>
+
+            <dt class="col-sm-3 col-md-2">
+                Edad
+            </dt>
+            <dd class="col-sm-9 col-md-10">
+                @Html.DisplayFor(model => model.Edad)
+            </dd>
+
+            <dt class="col-sm-3 col-md-2">
+                Pecera
+            </dt>
+            <dd class="col-sm-9 col-md-10">
+                @Html.DisplayFor(model => model.IdPeceraNavigation.NombrePecera)
+            </dd>
+        </dl>
+    </div>
+    <div class="card-footer text-end">
+        <a asp-action="Edit" asp-route-id="@Model?.IdPeces" class="btn btn-warning">
+            <i class="fa-solid fa-pen-to-square"></i> Editar
+        </a>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fa-solid fa-arrow-left"></i> Volver a la Lista
+        </a>
+    </div>
+</div>

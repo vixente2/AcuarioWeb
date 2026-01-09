@@ -1,0 +1,70 @@
+﻿@model AcuarioWebs.Models.Pece
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<h1 class="alert alert-dark text-center mt-5">Editar Pez: @Model.NombrePez</h1>
+
+
+    <div>
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdPeces" />
+            <div class="form-group">
+                <label asp-for="NombrePez" class="control-label"></label>
+                <input asp-for="NombrePez" class="form-control" />
+                <span asp-validation-for="NombrePez" class="text-danger"></span>
+            <div id="e-NombrePez"></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Especie" class="control-label"></label>
+                <input asp-for="Especie" class="form-control" />
+                <span asp-validation-for="Especie" class="text-danger"></span>
+            <div id="e-Especie"></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Edad" class="control-label"></label>
+            <input asp-for="Edad" class="form-control" onkeypress="return soloNumeros(event)" />
+                <span asp-validation-for="Edad" class="text-danger"></span>
+            <div id="e-Edad"></div>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdPecera" class="control-label">Pecera</label>
+                <select asp-for="IdPecera" class="form-control" asp-items="ViewBag.IdPecera">
+                    <option value="" selected disabled>Seleccione Pecera</option>
+                </select>
+                <span asp-validation-for="IdPecera" class="text-danger"></span>
+            <div id="e-IdPecera"></div>
+            </div>
+            <div class="form-group mt-3 text-center">
+                <input type="reset" value="Limpiar" class="btn btn-outline-dark w-25" />
+                <input type="submit" value="Editar" onclick="validar(event)" class="btn btn-success w-25" />
+            </div>
+        </form>
+    </div>
+
+
+<div class="text-end">
+    <a asp-action="Index" class="btn btn-dark">Volver</a>
+</div>
+<script src="~/js/helper.js"></script>
+<script src="~/js/scripts.js"></script>
+<script>
+    const validar = (evt) => {
+        document.querySelectorAll('form .form-control').forEach(item => {
+            if (item.value.trim() == '') {
+                evt.preventDefault()
+                item.classList.add('is-invalid')
+                document.getElementById('e-' + item.id).innerHTML = '<span class="text-danger">Campo obligatorio</span>'
+            } else {
+                document.getElementById('e-' + item.id).innerHTML = ''
+                item.classList.remove('is-invalid')
+                item.classList.add('is-valid')
+
+            }
+        })
+        if (document.querySelectorAll('.is-invalid').length > 0)
+            evt.preventDefault()
+    }
+</script>
+

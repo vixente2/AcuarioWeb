@@ -1,0 +1,67 @@
+﻿<nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+	<div class="sb-sidenav-menu">
+		<div class="nav">
+			<div class="sb-sidenav-menu-heading">Home</div>
+			<a class="nav-link" asp-controller="Home" asp-action="Index">
+				<div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
+				Inicio
+			</a>
+
+
+			<a class="nav-link" asp-controller="Dashboard" asp-action="Index">
+				<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+					Dashboard
+				</a>
+			
+			@if (User.IsInRole("Admin"))
+			{
+				<div class="sb-sidenav-menu-heading">Usuarios</div>
+				<a class="nav-link" asp-controller="Usuarios" asp-action="Index">
+					<div class="sb-nav-link-icon"><i class="fa-solid fa-user"></i></div>
+				Lista de Usuarios
+			</a>
+			}
+			
+			
+				<div class="sb-sidenav-menu-heading">Gestión</div>
+			@if (User.IsInRole("Admin") || User.IsInRole("Gerente"))
+			{
+				<a class="nav-link" asp-controller="Atenciones" asp-action="Index">
+					<div class="sb-nav-link-icon"><i class="fa-solid fa-clipboard"></i></div>
+				Gestión Atenciones
+			</a>
+			}
+			@if (User.IsInRole("Admin") || User.IsInRole("Gerente"))
+			{
+				<a class="nav-link" asp-controller="Alimentoos" asp-action="Index">
+					<div class="sb-nav-link-icon"><i class="fa-solid fa-utensils"></i></div>
+				Gestión Alimentos
+			</a>
+			}
+			@if (User.IsInRole("Admin") || User.IsInRole("Gerente") || User.IsInRole("Cuidador"))
+			{
+			<a class="nav-link" asp-controller="Peces" asp-action="Index">
+				<div class="sb-nav-link-icon"><i class="fa-solid fa-fish"></i></div>
+				Gestión Peces
+			</a>
+			}
+			@if (User.IsInRole("Admin") || User.IsInRole("Gerente") || User.IsInRole("Cuidador"))
+			{
+				<a class="nav-link" asp-controller="Peceraas" asp-action="Index">
+					<div class="sb-nav-link-icon"><i class="fa-solid fa-water"></i></div>
+				Gestión Peceras
+			</a>
+			}
+		</div>
+	</div>
+	<div class="sb-sidenav-footer">
+		@if (TempData.Peek("nombre") != null)
+		{
+			<label>Bienvenido @TempData.Peek("nombre")</label>
+		}
+		else
+		{
+			Context.Response.Redirect(Url.Action("Login", "Home"));
+		}
+	</div>
+</nav>

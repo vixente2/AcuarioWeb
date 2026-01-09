@@ -1,0 +1,145 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AcuarioWebs
+build_property.RootNamespace = AcuarioWebs
+build_property.ProjectDir = C:\Users\Carlo\Downloads\AcuarioWebsEntrega\AcuarioWebs\AcuarioWebs\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Carlo\Downloads\AcuarioWebsEntrega\AcuarioWebs\AcuarioWebs
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Alimentoos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpbWVudG9vc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Alimentoos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpbWVudG9vc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Alimentoos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpbWVudG9vc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Alimentoos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxpbWVudG9vc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Atenciones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRlbmNpb25lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Atenciones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRlbmNpb25lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Atenciones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRlbmNpb25lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Atenciones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRlbmNpb25lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Peceraas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVjZXJhYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Peceraas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVjZXJhYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Peceraas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVjZXJhYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Peceraas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVjZXJhYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Peces/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVjZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Peces/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVjZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Peces/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVjZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Peces/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVjZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Shared/_LateralMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXRlcmFsTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Carlo/Downloads/AcuarioWebsEntrega/AcuarioWebs/AcuarioWebs/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-teupxuifrb

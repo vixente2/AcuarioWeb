@@ -1,0 +1,38 @@
+﻿@model AcuarioWebs.Models.Alimentoo
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<h1 class="alert alert-secondary mt-5 text-center">Detalles del Alimento</h1>
+
+<div class="card shadow-sm">
+    <div class="card-header">
+        <h4 class="mb-0">Información del Alimento</h4>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3 col-md-2">
+                Nombre Alimento
+            </dt>
+            <dd class="col-sm-9 col-md-10">
+                @Html.DisplayFor(model => model.NombreAlimento)
+            </dd>
+
+            <dt class="col-sm-3 col-md-2">
+                Tipo de Alimento
+            </dt>
+            <dd class="col-sm-9 col-md-10">
+                @Html.DisplayFor(model => model.Tipo)
+            </dd>
+        </dl>
+    </div>
+    <div class="card-footer text-end">
+        <a asp-action="Edit" asp-route-id="@Model?.IdAlimento" class="btn btn-warning">
+            <i class="fa-solid fa-pen-to-square"></i> Editar
+        </a>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fa-solid fa-arrow-left"></i> Volver a la Lista
+        </a>
+    </div>
+</div>
